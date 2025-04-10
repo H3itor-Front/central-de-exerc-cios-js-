@@ -37,47 +37,46 @@
 
 // }
 
-function exerciciosDeRepetiçãoIntermediario01() {
+// function exerciciosDeRepetiçãoIntermediario01() {
 
-    for (let i = 2; i <= 50; i += 2) {
-        console.log(i);
-    }
+//     for (let i = 2; i <= 50; i += 2) {
+//         console.log(i);
+//     }
     
-}
-exerciciosDeRepetiçãoIntermediario01()
+// }
+// exerciciosDeRepetiçãoIntermediario01()
 
-function exerciciosDeRepetiçãoIntermediario02() {
+// function exerciciosDeRepetiçãoIntermediario02() {
 
-    let numeroAleatorio = Math.floor(Math.random () * (100 - 1) + 2);
+//     let numeroAleatorio = Math.floor(Math.random () * (100 - 1) + 2);
 
-    let tentativa;
+//     let tentativa;
 
-    while (tentativa != numeroAleatorio) {
+//     while (tentativa != numeroAleatorio) {
 
-      tentativa = prompt("insira um numero: ");
+//       tentativa = prompt("insira um numero: ");
 
-      if (numeroAleatorio > tentativa) {
+//       if (numeroAleatorio > tentativa) {
 
-      alert("Numero Aleatorio é maior")
+//       alert("Numero Aleatorio é maior")
         
-      }else{
+//       }else{
 
-        if (numeroAleatorio < tentativa) {
+//         if (numeroAleatorio < tentativa) {
 
-          alert("Numero aleatorio é menor");
+//           alert("Numero aleatorio é menor");
           
-        }else{
+//         }else{
 
-          alert("voce acertou!!!")
+//           alert("voce acertou!!!")
 
-        }
+//         }
 
-      }
+//       }
       
-    }
+//     }
 
-}
-exerciciosDeRepetiçãoIntermediario02()
+// }
 // function exerciciosDeRepetiçãoIntermediario03() {
 
 //     let numero = prompt("Digite um número para iniciar a contagem regressiva:");
@@ -92,7 +91,7 @@ exerciciosDeRepetiçãoIntermediario02()
 
   let i = prompt("Insira um numero interio positivo: ")
 
-  while (i ) {
+  while (i  ) {
     
   }
   

@@ -6,4 +6,3 @@ function exemploDeFilter() {
     console.log(numerosFiltrados);
 
 }
-exemploDeFilter()

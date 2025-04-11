@@ -1,212 +1,222 @@
-// // function exercicio01() {
+function exercicio01() {
 
-// //    debugger;
+   debugger;
 
-// // let numero = prompt("Digite um numero: ")
+let numero = prompt("Digite um numero: ")
 
-// // if (numero > 0) {
+if (numero > 0) {
 
-// // console.log("Positivo")
+alert("Positivo")
 
-// // } else {
+} else {
 
-// //  if ("numero < 0") { 
+ if ("numero < 0") { 
 
-// //     console.log("Negativo")
+    alert("Negativo")
 
-// //  } else {
+ } else {
 
-// //     console.log("É zero.")
+    alert("É zero.")
 
-// // }
+}
 
-// //    }
+   }
 
-// // }
+}
 
-// // function exercicio02 () {
+gerarlog("Exercicio de maioridade executado ás " + new Date().toLocaleDateString())
 
-// // let idade = prompt ("Digite sua idade:  ");
+function exercicio02 () {
 
-// //    if (idade >= 18) {
+let idade = prompt ("Digite sua idade:  ");
 
-// //    console.log("Você é maior de idade.");
+   if (idade >= 18) {
 
-// // } else {
+   alert("Você é maior de idade.");
 
-// // console.log("você é menor de idade.");
+} else {
 
-// //    }
+alert("você é menor de idade.");
 
-// // }
+   }
 
-// // function exercicio03() {
+}
 
-// // let numero = prompt("Insira um numero: ");
+function exercicio03() {
 
-// //    if ( numero %2== 0){
+let numero = prompt("Insira um numero: ");
 
-// //    alert("seu numero é par")
+   if ( numero %2== 0){
 
-// // }else{
+   alert("seu numero é par")
 
-// //    alert("seu numero é ímpar")
+}else{
 
-// //  }
+   alert("seu numero é ímpar")
 
-// // }
+ }
 
-// // function exercicio04() {
+}
 
-// //    let Nota = prompt("Digite a nota do aluno: ");
+function exercicio04() {
 
-// //       if (Nota >= 60){
+   let Nota = prompt("Digite a nota do aluno: ");
 
-// //          alert("você passou de ano");
+      if (Nota >= 60){
 
-// //       } else{
+         alert("você passou de ano");
 
-// //          alert("você reprovou de ano");
+      } else{
 
-// //     }  
-// // }
+         alert("você reprovou de ano");
 
-// // function exercicio05() {
+    }  
+}
 
-// //    let Numero = prompt("Digite um Numero: ");
+function exercicio05() {
 
-// //       if (Numero > 0){
+   let Numero = prompt("Digite um Numero: ");
 
-// //        alert ("Numero Posotivo")
+      if (Numero > 0){
 
-// //   }else{
+       alert ("Numero Posotivo")
 
-// //        alert ("Numero Negativo")
+  }else{
 
-// //    }
-// // }
+       alert ("Numero Negativo")
 
-// // function Exercicio06() {
+   }
+}
 
-// //    let idade = prompt("Digite sua idade:");
+function Exercicio06() {
 
-// //    if (idade >= 0 && idade <= 12) {
+   let idade = prompt("Digite sua idade:");
 
-// //        alert("Você é uma Criança");
+   if (idade >= 0 && idade <= 12) {
 
-// //    } else 
+       alert("Você é uma Criança");
 
-// //    if (idade >= 13 && idade <= 17) {
+   } else 
 
-// //        alert("Você é um Adolescente");
+   if (idade >= 13 && idade <= 17) {
 
-// //    } else 
+       alert("Você é um Adolescente");
 
-// //    if (idade >= 18) {
+   } else 
 
-// //        alert("Você é um Adulto");
+   if (idade >= 18) {
 
-// //    } else {
+       alert("Você é um Adulto");
 
-// //        alert("Idade inválida");
+   } else {
 
-// //    }
-// // }
-// function intermediario01() {
+       alert("Idade inválida");
 
-//     let num1 = parseFloat(prompt("Digite o primeiro número:"));
+   }
+}
+function intermediario01() {
 
-//     let num2 = parseFloat(prompt("Digite o segundo número:"));
 
-//     let operacao = prompt("Digite a operação (+, -, *, /):");
+    let num2 = parseFloat(prompt("Digite o segundo número:"));
 
-//     let resultado;
+    let operacao = prompt("Digite a operação (+, -, *, /):");
 
-//     if (operacao === "+") {
+    let resultado;
 
-//         resultado = num1 + num2;
+    if (operacao === "+") {
 
-//     } else
+        resultado = num1 + num2;
 
-//         if (operacao === "-") {
+    } else
 
-//             resultado = num1 - num2;
+        if (operacao === "-") {
 
-//         } else
+            resultado = num1 - num2;
 
-//             if (operacao === "*") {
+        } else
 
-//                 resultado = num1 * num2;
+            if (operacao === "*") {
 
-//             } else
+                resultado = num1 * num2;
 
-//                 if (operacao === "/") {
+            } else
 
-//                     if (num2 !== 0) {
-//                         resultado = num1 / num2;
-//                     } else {
+                if (operacao === "/") {
 
-//                         resultado = "Erro: Divisão por zero";
-//                     }
-//                 } else {
+                    if (num2 !== 0) {
+                        resultado = num1 / num2;
+                    } else {
 
-//                     resultado = "Operação inválida";
-//                 }
+                        resultado = "Erro: Divisão por zero";
+                    }
+                } else {
 
-    // alert("Resultado: " + resultado);
+                    resultado = "Operação inválida";
+                }
 
-// }
-// function intermediario02() {
+    alert("Resultado: " + resultado);
 
-//     let num1 = prompt("Digite o primeiro numero: ");
+}
+function intermediario02() {
 
-//     let num2 = prompt("Digite o segundo numero: ");
+    let num1 = prompt("Digite o primeiro numero: ");
 
-//     let num3 = prompt("Digite o terceiro numero: ");
+    let num2 = prompt("Digite o segundo numero: ");
 
+    let num3 = prompt("Digite o terceiro numero: ");
 
-//     if (num1 >= num2 && num1 >= num3) {
 
-//         alert("Seu primeiro número é o maior");
+    if (num1 >= num2 && num1 >= num3) {
 
-//     } else {
+        alert("Seu primeiro número é o maior");
 
-//         alert("Seu primeiro número é o menor");
+    } else {
 
-//     }
+        alert("Seu primeiro número é o menor");
 
-//     if (num2 >= num1 && num2 >= num3) {
+    }
 
-//         alert("Seu segundo número é o maior");
+    if (num2 >= num1 && num2 >= num3) {
 
-//     } else {
+        alert("Seu segundo número é o maior");
 
-//         alert("Seu segundo número é o menor");
+    } else {
 
-//     }
+        alert("Seu segundo número é o menor");
 
-//     if (num3 >= num1 && num3 >= num2) {
+    }
 
-//         alert("Seu terceiro número é o maior");
+    if (num3 >= num1 && num3 >= num2) {
 
-//     } else {
+        alert("Seu terceiro número é o maior");
 
-//         alert("Seu terceiro número é o menor");
+    } else {
 
-//     }
-// }
-// function intermediario03() {
-//     let Preço = prompt("Insira o Preço da compra: ");
+        alert("Seu terceiro número é o menor");
 
-//     if (Preço >= 100) {
+    }
+}
+function intermediario03() {
+    let Preço = prompt("Insira o Preço da compra: ");
 
-//         alert("Sua conta teve 10% de desconto");
+    if (Preço >= 100) {
 
-//     } else {
+        alert("Sua conta teve 10% de desconto");
 
-//         alert("Sua conta não teve 10% de desconto");
-//     }
-// }
-function intermediario04() {
+    } else {
+
+        alert("Sua conta não teve 10% de desconto");
+    }
+}
+
+function gerarlog(textoDoLog) {
+
+    let logoContainer = document.querySelector(".logo-container");
+
+    let paragraph = document.createElement("P");
+
+    paragraph.innerHTML = textoDoLog;
+
+    logoContainer.appendChild(paragraph);
     
 }

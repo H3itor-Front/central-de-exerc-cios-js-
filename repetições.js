@@ -1,92 +1,91 @@
-// function exerciciosDeRepetição01() {
+function exerciciosDeRepetição01() {
     
-//     let i = 1;
-//     do {
-//         alert(i);
-//         i++;
-//     } while (i <= 10);
+    let i = 1;
+    do {
+        alert(i);
+        i++;
+    } while (i <= 10);
 
-//  }
-//  function exerciciosDeRepetição02() {
+ }
+ function exerciciosDeRepetição02() {
   
-//     let numero = prompt("Digite um número para ver a tabuada:");
+    let numero = prompt("Digite um número para ver a tabuada:");
 
-// for (let i = 1; i <= 10; i++) {
-//     console.log(`${numero} x ${i} = ${numero * i}`);
-// }
+for (let i = 1; i <= 10; i++) {
+    console.log(`${numero} x ${i} = ${numero * i}`);
+}
 
-// console.log("Fim da tabuada.");
+console.log("Fim da tabuada.");
 
-//  }
+ }
 
-// function exerciciosDeRepetição03() {
+function exerciciosDeRepetição03() {
 
-//     let N = prompt("Digite um numero N: ");
+    let N = prompt("Digite um numero N: ");
 
-//  let soma = 0;
+ let soma = 0;
     
-//  let i = 1;
+ let i = 1;
 
-//     while (i <= N) {
-//         soma += i;
-//         i++;
+    while (i <= N) {
+        soma += i;
+        i++;
         
-//     }
+    }
 
-//     console.log("A soma dos números de 1 até " + N + " é: " + soma);
+    console.log("A soma dos números de 1 até " + N + " é: " + soma);
 
-// }
+}
 
-// function exerciciosDeRepetiçãoIntermediario01() {
+function exerciciosDeRepetiçãoIntermediario01() {
 
-//     for (let i = 2; i <= 50; i += 2) {
-//         console.log(i);
-//     }
+    for (let i = 2; i <= 50; i += 2) {
+        console.log(i);
+    }
     
-// }
-// exerciciosDeRepetiçãoIntermediario01()
+}
 
-// function exerciciosDeRepetiçãoIntermediario02() {
+function exerciciosDeRepetiçãoIntermediario02() {
 
-//     let numeroAleatorio = Math.floor(Math.random () * (100 - 1) + 2);
+    let numeroAleatorio = Math.floor(Math.random () * (100 - 1) + 2);
 
-//     let tentativa;
+    let tentativa;
 
-//     while (tentativa != numeroAleatorio) {
+    while (tentativa != numeroAleatorio) {
 
-//       tentativa = prompt("insira um numero: ");
+      tentativa = prompt("insira um numero: ");
 
-//       if (numeroAleatorio > tentativa) {
+      if (numeroAleatorio > tentativa) {
 
-//       alert("Numero Aleatorio é maior")
+      alert("Numero Aleatorio é maior")
         
-//       }else{
+      }else{
 
-//         if (numeroAleatorio < tentativa) {
+        if (numeroAleatorio < tentativa) {
 
-//           alert("Numero aleatorio é menor");
+          alert("Numero aleatorio é menor");
           
-//         }else{
+        }else{
 
-//           alert("voce acertou!!!")
+          alert("voce acertou!!!")
 
-//         }
+        }
 
-//       }
+      }
       
-//     }
+    }
 
-// }
-// function exerciciosDeRepetiçãoIntermediario03() {
+}
+function exerciciosDeRepetiçãoIntermediario03() {
 
-//     let numero = prompt("Digite um número para iniciar a contagem regressiva:");
+    let numero = prompt("Digite um número para iniciar a contagem regressiva:");
 
-//     while (numero >= 0) {
-//         console.log(numero);
-//         numero--;
-//     }
+    while (numero >= 0) {
+        console.log(numero);
+        numero--;
+    }
 
-// }
+}
  function exerciciosDeRepetiçãoAvançado01(){
 
   let i = prompt("Insira um numero interio positivo: ")

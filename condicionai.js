@@ -1,118 +1,118 @@
 function exercicio01() {
 
-   debugger;
+    debugger;
 
-let numero = prompt("Digite um numero: ")
+    let numero = prompt("Digite um numero: ")
 
-if (numero > 0) {
+    if (numero > 0) {
 
-alert("Positivo")
+        alert("Positivo")
 
-} else {
+    } else {
 
- if ("numero < 0") { 
+        if ("numero < 0") {
 
-    alert("Negativo")
+            alert("Negativo")
 
- } else {
+        } else {
 
-    alert("É zero.")
+            alert("É zero.")
 
-}
+        }
 
-   }
+    }
 
 }
 
 gerarlog("Exercicio de maioridade executado ás " + new Date().toLocaleDateString())
 
-function exercicio02 () {
+function exercicio02() {
 
-let idade = prompt ("Digite sua idade:  ");
+    let idade = prompt("Digite sua idade:  ");
 
-   if (idade >= 18) {
+    if (idade >= 18) {
 
-   alert("Você é maior de idade.");
+        alert("Você é maior de idade.");
 
-} else {
+    } else {
 
-alert("você é menor de idade.");
+        alert("você é menor de idade.");
 
-   }
+    }
 
 }
 
 function exercicio03() {
 
-let numero = prompt("Insira um numero: ");
+    let numero = prompt("Insira um numero: ");
 
-   if ( numero %2== 0){
+    if (numero % 2 == 0) {
 
-   alert("seu numero é par")
+        alert("seu numero é par")
 
-}else{
+    } else {
 
-   alert("seu numero é ímpar")
+        alert("seu numero é ímpar")
 
- }
+    }
 
 }
 
 function exercicio04() {
 
-   let Nota = prompt("Digite a nota do aluno: ");
+    let Nota = prompt("Digite a nota do aluno: ");
 
-      if (Nota >= 60){
+    if (Nota >= 60) {
 
-         alert("você passou de ano");
+        alert("você passou de ano");
 
-      } else{
+    } else {
 
-         alert("você reprovou de ano");
+        alert("você reprovou de ano");
 
-    }  
+    }
 }
 
 function exercicio05() {
 
-   let Numero = prompt("Digite um Numero: ");
+    let Numero = prompt("Digite um Numero: ");
 
-      if (Numero > 0){
+    if (Numero > 0) {
 
-       alert ("Numero Posotivo")
+        alert("Numero Posotivo")
 
-  }else{
+    } else {
 
-       alert ("Numero Negativo")
+        alert("Numero Negativo")
 
-   }
+    }
 }
 
 function Exercicio06() {
 
-   let idade = prompt("Digite sua idade:");
+    let idade = prompt("Digite sua idade:");
 
-   if (idade >= 0 && idade <= 12) {
+    if (idade >= 0 && idade <= 12) {
 
-       alert("Você é uma Criança");
+        alert("Você é uma Criança");
 
-   } else 
+    } else
 
-   if (idade >= 13 && idade <= 17) {
+        if (idade >= 13 && idade <= 17) {
 
-       alert("Você é um Adolescente");
+            alert("Você é um Adolescente");
 
-   } else 
+        } else
 
-   if (idade >= 18) {
+            if (idade >= 18) {
 
-       alert("Você é um Adulto");
+                alert("Você é um Adulto");
 
-   } else {
+            } else {
 
-       alert("Idade inválida");
+                alert("Idade inválida");
 
-   }
+            }
 }
 function intermediario01() {
 
@@ -218,5 +218,5 @@ function gerarlog(textoDoLog) {
     paragraph.innerHTML = textoDoLog;
 
     logoContainer.appendChild(paragraph);
-    
+
 }
